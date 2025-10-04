@@ -2,6 +2,12 @@
 
 A privacy-first password manager built with Next.js, TypeScript, and MongoDB, featuring client-side encryption, OTP-based authentication, password generation, and a clean, minimal interface.
 
+## 🚀 Live Demo
+
+**[Try SecureVault Live](https://password-generator-gold-one-27.vercel.app/)**
+
+Experience the full functionality of SecureVault with our live demo.
+
 ## ✨ **Latest Features (Updated)**
 
 ### 🔐 **Enhanced Authentication System**
