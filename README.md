@@ -8,6 +8,45 @@ A privacy-first password manager built with Next.js, TypeScript, and MongoDB, fe
 
 Experience the full functionality of SecureVault with our live demo.
 
+## Quick Start
+
+### 1. **Prerequisites**
+- Node.js 18+ installed
+- MongoDB Atlas account (or local MongoDB)
+- Valid email credentials for OTP sending (optional for demo)
+
+### 2. **Installation**
+```bash
+# Clone or download the project
+cd password-manager
+
+# Install dependencies
+npm install
+```
+
+### 3. **Environment Setup**
+Update `.env.local` with your configurations:
+```env
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=your-super-secret-key-change-this-in-production-32-chars-minimum
+ENCRYPTION_KEY=your-encryption-key-32-characters-minimum-change-this
+MONGO_URI=your-mongodb-connection-string
+
+# Optional: For real email sending
+EMAIL_HOST=smtp.gmail.com
+EMAIL_PORT=587
+EMAIL_USER=your-email@gmail.com
+EMAIL_PASS=your-app-password
+```
+
+### 4. **Start Development Server**
+```bash
+npm run dev
+```
+
+### 5. **Open Application**
+Navigate to [http://localhost:3000](http://localhost:3000)
+
 ## ✨ **Latest Features (Updated)**
 
 ### 🔐 **Enhanced Authentication System**
@@ -57,44 +96,6 @@ Experience the full functionality of SecureVault with our live demo.
 - **OTP verification** for enhanced account security
 - **Email-based recovery** without compromising security
 
-## Quick Start
-
-### 1. **Prerequisites**
-- Node.js 18+ installed
-- MongoDB Atlas account (or local MongoDB)
-- Valid email credentials for OTP sending (optional for demo)
-
-### 2. **Installation**
-```bash
-# Clone or download the project
-cd password-manager
-
-# Install dependencies
-npm install
-```
-
-### 3. **Environment Setup**
-Update `.env.local` with your configurations:
-```env
-NEXTAUTH_URL=http://localhost:3000
-NEXTAUTH_SECRET=your-super-secret-key-change-this-in-production-32-chars-minimum
-ENCRYPTION_KEY=your-encryption-key-32-characters-minimum-change-this
-MONGO_URI=your-mongodb-connection-string
-
-# Optional: For real email sending
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_USER=your-email@gmail.com
-EMAIL_PASS=your-app-password
-```
-
-### 4. **Start Development Server**
-```bash
-npm run dev
-```
-
-### 5. **Open Application**
-Navigate to [http://localhost:3000](http://localhost:3000)
 
 ## Usage Guide
 
